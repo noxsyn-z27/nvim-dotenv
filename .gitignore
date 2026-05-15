@@ -1,0 +1,13 @@
+# Plugin version lock (always use latest plugins)
+lazy-lock.json
+
+# Treesitter parsers (auto-generated)
+/parser/
+
+# Swap / backup / undo files
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store

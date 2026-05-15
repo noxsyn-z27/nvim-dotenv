@@ -1,0 +1,13 @@
+return {
+  "Mofiqul/vscode.nvim",
+  priority = 1000,
+  config = function()
+    require('vscode').setup({
+      underline_links = true,
+      color_overrides = {
+        vscBack = "#000000"
+      },
+    })
+    vim.cmd.colorscheme("vscode")
+  end,
+}
