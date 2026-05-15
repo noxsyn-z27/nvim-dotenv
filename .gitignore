@@ -11,3 +11,6 @@ lazy-lock.json
 
 # OS generated files
 .DS_Store
+
+# Claude Code settings
+.claude/
