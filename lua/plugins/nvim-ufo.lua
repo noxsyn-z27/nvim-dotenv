@@ -1,3 +1,10 @@
+-- nvim-ufo: Treesitter / インデントを利用した高機能コード折りたたみプラグイン。
+-- カスタマイズ:
+--   - provider_selector: Treesitter優先、フォールバックにインデント (grug-farバッファは折りたたみ無効)。
+--   - foldlevel=99: デフォルトですべて展開した状態で起動。
+--   - `zR` / `zM`: 全展開 / 全折りたたみ。
+--   - `zr` / `zm`: 指定種別以外を展開 / 指定レベルで折りたたみ。
+--   - `K`: 折りたたみ内容をプレビュー (折りたたみがなければLSPホバー)。
 return {
   "kevinhwang91/nvim-ufo",
   dependencies = { "kevinhwang91/promise-async" },

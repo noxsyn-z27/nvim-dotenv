@@ -1,3 +1,8 @@
+-- render-markdown.nvim: Markdownをバッファ内でリアルタイムにレンダリングするプラグイン。
+-- カスタマイズ:
+--   - anti_conceal=false: カーソル付近での非表示解除を無効にして常にレンダリング状態を維持。
+--   - heading.icons: 見出しアイコンを空文字にして番号プレフィックスを非表示。
+--   - 見出しレベル (H1〜H6) の背景色をカスタムカラーで設定。
 return {
   "MeanderingProgrammer/render-markdown.nvim",
   dependencies = { "nvim-treesitter/nvim-treesitter", "nvim-mini/mini.nvim" },

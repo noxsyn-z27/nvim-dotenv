@@ -1,5 +1,9 @@
--- nvmを使ってnode.js, npmをインストールする
--- npmを使ってtree-sitter-cliをインストールする
+-- nvim-treesitter: 構文木を利用した高精度シンタックスハイライト・インデントプラグイン。
+-- 事前に tree-sitter-cli のインストールが必要:
+--   nvm でNode.js/npmをインストール後、npm install -g tree-sitter-cli
+-- カスタマイズ:
+--   - 対象言語: java / kotlin / lua / vim / vimdoc。
+--   - FileType autocmd でバッファごとに Treesitter を起動し、インデントも Treesitter に委譲。
 return {
   "nvim-treesitter/nvim-treesitter",
   build = ":TSUpdate",

@@ -1,3 +1,8 @@
+-- marks.nvim: Vimのマーク (`m` コマンドで設定) をサインカラムに可視化するプラグイン。
+-- カスタマイズ:
+--   - default_mappings=true: デフォルトのマークナビゲーションキーを使用。
+--   - refresh_interval=250ms: マーク表示の更新間隔。
+--   - sign_style="shorten": サインをコンパクトに表示。
 return {
   "chentoast/marks.nvim",
   event = "VeryLazy",

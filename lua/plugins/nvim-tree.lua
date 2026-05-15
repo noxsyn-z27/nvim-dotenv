@@ -1,3 +1,12 @@
+-- nvim-tree.lua: サイドバー形式のファイルツリープラグイン。
+-- カスタマイズ:
+--   - `<leader>w`: ツリーのトグル (NvimTree表示中は閉じる、それ以外は現在ファイルを表示してフォーカス)。
+--   - sync_root_with_cwd=true: カレントディレクトリに追従してルートを更新。
+--   - git_ignored=false: .gitignore対象ファイルも表示。
+--   - update_focused_file=true: 編集中ファイルに合わせてツリーをハイライト・ルート更新。
+--   - `<CR>`: ファイルを開く / ディレクトリを展開。
+--   - `[` / `]`: ツリーウィンドウ幅を10列単位で縮小 / 拡大。
+--   - 背景色を黒 (#000000) に設定。
 return {
   "nvim-tree/nvim-tree.lua",
   version = "*",

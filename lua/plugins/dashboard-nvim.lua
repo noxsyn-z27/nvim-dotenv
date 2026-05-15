@@ -1,3 +1,9 @@
+-- dashboard-nvim: Neovim起動時に表示されるスタート画面プラグイン。
+-- カスタマイズ:
+--   - theme=hyper: hyperテーマを使用。
+--   - week_header: 曜日を含むヘッダーを表示。
+--   - ショートカット: `u` でプラグイン更新、`f` でファイル検索 (Telescope)、`q` で終了。
+--   - `:DA` コマンドでダッシュボードを再表示。
 return {
   "nvimdev/dashboard-nvim",
   lazy = false,

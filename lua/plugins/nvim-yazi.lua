@@ -1,4 +1,10 @@
--- yaziをインストールする
+-- yazi.nvim: ターミナルファイルマネージャー yazi を Neovim 内で起動するプラグイン。
+-- 事前に yazi のインストールが必要 (cargo install yazi-fm yazi-cli)。
+-- カスタマイズ:
+--   - `<leader>-`: 現在ファイルの場所でyaziを開く (Normal / Visual モード)。
+--   - open_for_directories=false: ディレクトリを引数にした場合はyaziを自動起動しない。
+--   - ヘルプキーを `<F1>` に設定。
+--   - netrwを無効化してyaziに置き換え。
 return {
   "mikavilpas/yazi.nvim",
   version = "*",
